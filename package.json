@@ -6,7 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["react", "redux", "chrome-extension", "new-tab"],
+  "keywords": [
+    "react",
+    "redux",
+    "chrome-extension",
+    "new-tab"
+  ],
   "author": "Joni Kämppä",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
 }
