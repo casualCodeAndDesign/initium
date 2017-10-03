@@ -1,0 +1,12 @@
+{
+  "name": "initium",
+  "version": "1.0.0",
+  "description": "Initium ---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["react", "redux", "chrome-extension", "new-tab"],
+  "author": "Joni Kämppä",
+  "license": "ISC"
+}
