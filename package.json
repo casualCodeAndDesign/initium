@@ -1,22 +1,26 @@
 {
   "name": "initium",
-  "version": "1.0.0",
-  "description": "Initium ---",
+  "version": "0.0.1",
+  "description": "React-based Momentum-like starting-page app",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/initium"
   },
   "keywords": [
     "react",
     "redux",
-    "chrome-extension",
-    "new-tab"
+    "webpack2"
   ],
   "author": "Joni Kämppä",
-  "license": "ISC",
-  "dependencies": {
-    "babel-core": "^6.26.0",
-    "babel-preset-latest": "^6.24.1",
-    "babel-preset-react": "^6.24.1"
-  }
+  "license": "ISC"
 }
