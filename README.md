@@ -1,6 +1,17 @@
-Initium
----
+# Initium
 
 My Momentum clone for a landing-page
 
-(c) Joni Kämppä 2017
+Setup
+---
+```
+npm install
+```
+
+Compile
+---
+```
+npm run compile
+```
+
+&copy; Joni Kämppä 2017
