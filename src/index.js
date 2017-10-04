@@ -1,12 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-import Counter from './counter';
+import { createStore, applyMiddleware } from 'redux';
+import { Provider } from 'react-redux';
+import ReduxThunk from 'redux-thunk';
+import reducers from './reducers';
+import '../style/style.css';
 
-console.log("Hello world!");
+const App = () {
+  const store = createStore(reducers, {}, applyMiddleware(ReduxThunk));
 
-document.addEventListener('DOMContentLoaded', function() {
-  ReactDOM.render(
-    React.createElement(Counter),
-    document.getElementById('mount')
+  return (
+    <Provider store={store}>
+    </Provider>
   );
-});
+};
+
+ReactDOM.render(<App />, document.getElementById('app'));
