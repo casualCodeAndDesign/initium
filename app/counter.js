@@ -4,13 +4,13 @@ class Counter extends Component {
   constructor() {
     super();
     this.state = {
-      count: 0,
+      count: 0
     };
   }
 
   render() {
     return (
-      <button
+      <button 
         onClick={() => {
           this.setState({ count: this.state.count + 1 });
         }}
