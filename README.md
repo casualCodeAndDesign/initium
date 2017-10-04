@@ -2,6 +2,13 @@
 
 My Momentum clone for a landing-page
 
+Usage
+---
+Start the development server with this command:
+```
+npm start
+```
+
 Setup
 ---
 ```
